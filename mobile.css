@@ -1,0 +1,100 @@
+@media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 360px);
+  }
+  .container {
+    width: 800px;
+  }
+  .menu {
+    z-index: 2;
+  }
+  .breadcrump {
+    flex-direction: column;
+  }
+  .brand {
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .brand__img {
+    display: none;
+  }
+  .offer__forPro {
+    display: flex;
+    flex-direction: column;
+  }
+  .offer__product_carts {
+    display: flex;
+    flex-direction: column;
+  }
+  .offer__product_button {
+    width: 50%;
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .feature__content {
+    width: 42%;
+  }
+  .subscribe__top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .registration {
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .registration__form {
+    width: 100%;
+  }
+  .registration__form_input {
+    width: 100%;
+  }
+  .registration__info {
+    width: 100%;
+  }
+  .cart {
+    justify-content: center;
+    gap: 60px;
+  }
+  .cart__address {
+    width: 100%;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .cart__address_headings {
+    width: 100%;
+  }
+  .cart__result {
+    width: 100%;
+    height: 243px;
+  }
+  .cart__input {
+    width: 100%;
+  }
+  .product {
+    margin-top: 0;
+  }
+  .product__info {
+    border: 0.2px solid white;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 31px;
+    padding-top: 44px;
+  }
+}/*# sourceMappingURL=mobile.css.map */
